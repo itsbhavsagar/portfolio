@@ -162,6 +162,14 @@ name: "Bhavsagar",
       end: "2024",
       description: "Completed multiple courses on JavaScript, React, Next.js, and advanced front-end development. Strengthened knowledge of modern frameworks, state management, and performance optimization.",
     },
+      {
+      school: "Bharati Vidyapeeth Deemed University",
+      href: "https://www.bvusde.com/",
+      degree: "Bachelor of Computer Applications (B.C.A)",
+      logoUrl: "/bvu.png",
+      start: "2010",
+      end: "2013",
+    },
 
   ],
 
