@@ -1,11 +1,54 @@
 ---
-title: "Hello World"
-publishedAt: "2024-06-18"
-summary: "My first post on my new blog."
+title: 'Understanding Redux: A Beginner’s Guide'
+publishedAt: '2025-02-10'
+summary: 'An introduction to Redux for managing state in React applications.'
+slug: 'understanding-redux'
 ---
 
-Hi there!
+# Understanding Redux: A Beginner’s Guide
 
-```jsx
-console.log("Hello World");
+Redux is a powerful state management library for JavaScript applications—especially popular in the React ecosystem. It provides a predictable way to manage state changes in your application, making your code easier to maintain and debug.
+
+## What is Redux?
+
+Redux is a **state container** that helps you write applications that behave consistently across different environments. It enforces a unidirectional data flow and makes state changes explicit, which improves maintainability and debuggability.
+
+## Core Concepts of Redux
+
+Redux revolves around a few key concepts:
+
+1. **Store:**
+   The single source of truth that holds your application's entire state.
+
+2. **Actions:**
+   Plain JavaScript objects that describe an event or change. Every action must have a `type` property.
+
+3. **Reducers:**
+   Pure functions that take the previous state and an action, and return the next state.
+
+4. **Dispatch:**
+   A function that sends actions to the store to trigger a state change.
+
+## How Does Redux Work?
+
+When an action is dispatched, Redux passes it along with the current state to a reducer. The reducer then calculates the new state based on the action type. This new state replaces the old one in the store, prompting the UI to re-render.
+
+Here's an example of a simple reducer:
+
+```js
+// counterReducer.js
+const initialState = { count: 0 };
+
+function counterReducer(state = initialState, action) {
+  switch (action.type) {
+    case 'INCREMENT':
+      return { count: state.count + 1 };
+    case 'DECREMENT':
+      return { count: state.count - 1 };
+    default:
+      return state;
+  }
+}
+
+export default counterReducer;
 ```
