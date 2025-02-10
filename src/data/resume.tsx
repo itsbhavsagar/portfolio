@@ -10,7 +10,7 @@ name: "Bhavsagar",
   description:
     "Full-Stack Developer passionate about AI-driven solutions and scalable web applications.",
   summary:
-    "Full-Stack MERN Developer with 3+ years of experience in building scalable, high-performance applications. Currently transitioning into AI Agent Development, leveraging JavaScript, TypeScript, and modern AI technologies. Skilled in building intuitive UIs, optimizing back-end performance, and implementing DevOps best practices.",
+    "Full-Stack MERN Developer with 2+ years of experience in building scalable, high-performance applications. Currently transitioning into AI Agent Development, leveraging JavaScript, TypeScript, and modern AI technologies. Skilled in building intuitive UIs, optimizing back-end performance, and implementing DevOps best practices.",
   avatarUrl: "https://avatars.githubusercontent.com/u/46781035?v=4",
   skills: [
     "JavaScript",
