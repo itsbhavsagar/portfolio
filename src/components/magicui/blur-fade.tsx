@@ -3,6 +3,10 @@
 import { AnimatePresence, motion, useInView, Variants } from "framer-motion";
 import { useRef } from "react";
 
+// Extract the type of the margin option from useInView’s options.
+// This ensures that our inViewMargin prop has exactly the same type.
+type InViewMarginType = Parameters<typeof useInView>[1]["margin"];
+
 interface BlurFadeProps {
   children: React.ReactNode;
   className?: string;
@@ -14,9 +18,11 @@ interface BlurFadeProps {
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  inViewMargin?: string;
+  // Now use the extracted type for the inViewMargin prop
+  inViewMargin?: InViewMarginType;
   blur?: string;
 }
+
 const BlurFade = ({
   children,
   className,
@@ -25,7 +31,8 @@ const BlurFade = ({
   delay = 0,
   yOffset = 6,
   inView = false,
-  inViewMargin = "-50px",
+  // Cast the default value to the proper type
+  inViewMargin = "-50px" as InViewMarginType,
   blur = "6px",
 }: BlurFadeProps) => {
   const ref = useRef(null);
