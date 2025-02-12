@@ -127,8 +127,7 @@ export const DATA = {
       badges: [],
       location: 'Noida, Uttar Pradesh',
       title: 'Frontend Web Developer',
-      logoUrl:
-        'https://www.speedwellitsolutions.com/assets/images/logo/speedwell_logo.webp',
+      logoUrl: '/Speedwell.webp',
       start: 'Feb 2021',
       end: 'June 2021',
       description:
