@@ -7,10 +7,11 @@ export const DATA = {
   url: 'https://bhavsagar.com',
   location: 'New Delhi, India',
   locationLink: 'https://www.google.com/maps/place/NewDelhi',
+
   description:
-    'Full-Stack Developer passionate about AI-driven solutions and scalable web applications.',
+    '🔥 Full-Stack Developer Bridging MERN Mastery with AI Exploration',
   summary:
-    'Full-Stack MERN Developer with 2+ years of experience in building scalable, high-performance applications. Currently transitioning into AI Agent Development, leveraging JavaScript, TypeScript, and modern AI technologies. Skilled in building intuitive UIs, optimizing back-end performance, and implementing DevOps best practices.',
+    'I’ve spent 2+ years crafting **Full-Stack solutions** for startups, optimizing everything from pixel-perfect **React** UIs to high-traffic **Node.js** backends. Recently, I’ve been channeling that expertise into **AI experimentation**, blending tools like **TensorFlow.js** and **OpenAI’s** APIs with my **JavaScript/TypeScript** foundation. When I’m not coding, I write about my journey into **AI development** and share practical tutorials for developers making the same transition. Let’s connect and build something *real* !',
   avatarUrl: '/me.png',
   skills: [
     'JavaScript',
@@ -196,8 +197,7 @@ export const DATA = {
         'JavaScript',
         'Shadcn UI',
         'Magic UI',
-        'Stripe',
-        'Cloudflare Workers',
+        'Lazy Loading',
       ],
       links: [
         {
@@ -274,7 +274,7 @@ export const DATA = {
     {
       title: 'Full-Stack E-Commerce Platform',
       href: 'https://ecommerce-xi-swart.vercel.app/',
-      dates: 'April 2024 - August 2024',
+      dates: 'April 2024 - Aug 2024',
       active: true,
       description:
         'Developed a feature-rich E-commerce platform using the MERN stack. The platform offers seamless product browsing, user authentication, secure payment integration, and real-time search functionality. Ensuring a responsive and optimized user experience across all devices.',
@@ -289,6 +289,7 @@ export const DATA = {
         'Context API',
         'Mongoose',
         'Daisy UI',
+        'Lazy Loading',
       ],
       links: [
         {
