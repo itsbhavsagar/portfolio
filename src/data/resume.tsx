@@ -1,5 +1,5 @@
 import { Icons } from '@/components/icons';
-import { HomeIcon, NotebookIcon, Target } from 'lucide-react';
+import { HomeIcon, NotebookIcon, Target, Instagram } from 'lucide-react';
 
 export const DATA = {
   name: 'Bhavsagar',
@@ -48,6 +48,7 @@ export const DATA = {
 
         navbar: true,
       },
+
       LinkedIn: {
         name: 'LinkedIn',
         url: 'https://www.linkedin.com/in/itsbhavsagar/',
@@ -66,14 +67,19 @@ export const DATA = {
         name: 'Youtube',
         url: '#',
         icon: Icons.youtube,
+        navbar: false,
+      },
+      Instagram: {
+        name: 'Instagram',
+        url: 'https://www.instagram.com/codewithbhav/',
+        icon: Instagram,
         navbar: true,
       },
       email: {
         name: 'Send Email',
-        url: '#',
+        url: 'mailto:bhavsagar92@gmail.com',
         icon: Icons.email,
-
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -84,9 +90,9 @@ export const DATA = {
       href: 'https://www.upwork.com/',
       badges: [],
       location: 'Noida, Uttar Pradesh',
-      title: 'React Developer, Freelance',
+      title: 'MERN Developer | Freelance',
       logoUrl: '/upwork.svg',
-      start: 'April 2022',
+      start: 'Aug 2024',
       end: 'Present',
       description:
         'Developed and maintained scalable web applications using React and TypeScript for clients across various industries. Built reusable UI components and optimized front-end performance. Integrated RESTful APIs and GraphQL for efficient data fetching and state management. Utilized Docker and Kubernetes for containerized deployments. Designed and implemented robust testing strategies using Jest and React Testing Library.',
@@ -96,10 +102,10 @@ export const DATA = {
       href: 'https://www.geeksforgeeks.org/',
       badges: [],
       location: 'Noida, Uttar Pradesh',
-      title: 'Student FullStack-MERN Intern',
+      title: 'FullStack-MERN Intern',
       logoUrl: '/gfg.svg',
       start: 'April 2024',
-      end: 'August 2024',
+      end: 'Aug 2024',
       description:
         'Built full-stack web applications using MongoDB, Express.js, React, and Node.js. Developed interactive and responsive UI components with React and Redux Toolkit. Implemented authentication and authorization using JWT and OAuth. Optimized database queries and back-end performance for scalability. Collaborated with senior developers to debug, test, and deploy production-ready applications.',
     },
@@ -108,7 +114,7 @@ export const DATA = {
       href: 'https://digital.allen.ac.in/',
       badges: [],
       location: 'Kota, Rajasthan',
-      title: 'Software Engineer',
+      title: 'Software Engineer | Consultant',
       logoUrl: '/allen.svg',
       start: 'July 2021',
       end: 'March 2022',
@@ -120,10 +126,10 @@ export const DATA = {
       href: 'https://www.speedwellitsolutions.com/index.php',
       badges: [],
       location: 'Noida, Uttar Pradesh',
-      title: 'Web Developer',
+      title: 'Frontend Web Developer',
       logoUrl:
         'https://www.speedwellitsolutions.com/assets/images/logo/speedwell_logo.webp',
-      start: 'February 2021',
+      start: 'Feb 2021',
       end: 'June 2021',
       description:
         'Developed and maintained responsive web applications using React, Redux, and TypeScript. Architected and built the MVP of an internal admin and A/B testing dashboard. Integrated APIs for real-time data updates and analytics. Optimized front-end performance and ensured cross-browser compatibility.',
@@ -179,7 +185,7 @@ export const DATA = {
     {
       title: 'Digital Marketing Webiste',
       href: 'https://cognitive-creations.vercel.app/',
-      dates: 'August 2024 - September 2024',
+      dates: 'Aug 2024 - Sep 2024',
       active: true,
       description:
         'Built a responsive digital marketing website using React, featuring smooth navigation, dynamic components, and modern UI with TailwindCSS and Daisy UI',
@@ -267,27 +273,28 @@ export const DATA = {
     },
 
     {
-      title: 'Automatic Chat',
-      href: 'https://automatic.chat',
-      dates: 'April 2023 - March 2024',
+      title: 'Full-Stack E-Commerce Platform',
+      href: 'https://ecommerce-xi-swart.vercel.app/',
+      dates: 'April 2024 - August 2024',
       active: true,
       description:
-        'Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.',
+        'Developed a feature-rich E-commerce platform using the MERN stack. The platform offers seamless product browsing, user authentication, secure payment integration, and real-time search functionality. Ensuring a responsive and optimized user experience across all devices.',
       technologies: [
-        'Next.js',
-        'Typescript',
-        'PostgreSQL',
-        'Prisma',
+        'React.js',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Redux Toolkit',
+        'JWT Authentication',
         'TailwindCSS',
-        'Shadcn UI',
-        'Magic UI',
-        'Stripe',
-        'Cloudflare Workers',
+        'Context API',
+        'Mongoose',
+        'Daisy UI',
       ],
       links: [
         {
           type: 'Website',
-          href: 'https://automatic.chat',
+          href: 'https://ecommerce-xi-swart.vercel.app/',
           icon: <Icons.globe className="size-3" />,
         },
       ],
