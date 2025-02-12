@@ -201,24 +201,23 @@ export const DATA = {
         },
       ],
       image: '/FastAPI.gif',
+      video: '#',
     },
     {
       title: 'Digital Marketing Webiste',
-      href: 'https://llm.report',
+      href: 'https://cognitive-creations.vercel.app/',
       dates: 'April 2023 - September 2023',
       active: true,
       description:
         'Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.',
       technologies: [
-        'Next.js',
-        'Typescript',
-        'PostgreSQL',
-        'Prisma',
+        'React',
+        'React Router',
+        'JavaScript',
         'TailwindCSS',
         'Shadcn UI',
-        'Magic UI',
-        'Stripe',
-        'Cloudflare Workers',
+        'Daisy UI',
+        'GitHub',
       ],
       links: [
         {
