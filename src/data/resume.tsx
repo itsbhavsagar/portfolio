@@ -177,33 +177,6 @@ export const DATA = {
 
   projects: [
     {
-      title: 'Workflow Builder with ReactFlow',
-      href: '#',
-      dates: 'Aug 2024 - Sep 2024',
-      active: true,
-      description:
-        'Built a pipeline builder using ReactFlow, Python, and FastAPI to help users design and visualize workflows. It features dynamic text nodes with variable support, real-time DAG validation, and a polished, user-friendly interface.',
-      technologies: [
-        'React',
-        'React Flow',
-        'Python',
-        'FastAPI',
-        'TailwindCSS',
-        'Real-Time Feedback',
-        'DAG Validation',
-        'Dynamic Node Interactions',
-      ],
-      links: [
-        {
-          type: 'Source',
-          href: 'https://github.com/itsbhavsagar/VectorShift_technical_assessment',
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: '/FastAPI.gif',
-      video: '',
-    },
-    {
       title: 'Digital Marketing Webiste',
       href: 'https://cognitive-creations.vercel.app/',
       dates: 'August 2024 - September 2024',
@@ -264,6 +237,33 @@ export const DATA = {
       ],
       image: '',
       video: 'https://itsbhavsagar.github.io/video-hosting/dashboard.mp4',
+    },
+    {
+      title: 'Workflow Builder with ReactFlow',
+      href: '#',
+      dates: 'Aug 2024 - Sep 2024',
+      active: true,
+      description:
+        'Built a pipeline builder using ReactFlow, Python, and FastAPI to help users design and visualize workflows. It features dynamic text nodes with variable support, real-time DAG validation, and a polished, user-friendly interface.',
+      technologies: [
+        'React',
+        'React Flow',
+        'Python',
+        'FastAPI',
+        'TailwindCSS',
+        'Real-Time Feedback',
+        'DAG Validation',
+        'Dynamic Node Interactions',
+      ],
+      links: [
+        {
+          type: 'Source',
+          href: 'https://github.com/itsbhavsagar/VectorShift_technical_assessment',
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: '/FastAPI.gif',
+      video: '',
     },
 
     {
