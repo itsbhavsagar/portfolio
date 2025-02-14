@@ -299,8 +299,7 @@ export const DATA = {
         },
       ],
       image: '',
-      video:
-        'https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4',
+      video:'https://itsbhavsagar.github.io/video-hosting/Ecomm-MERN.mp4',
     },
   ],
 } as const;
