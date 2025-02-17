@@ -294,7 +294,7 @@ export const DATA = {
       links: [
         {
           type: 'Website',
-          href: 'https://ecommerce-xi-swart.vercel.app/',
+          href: 'https://ecommerce-website-lilac-ten.vercel.app/',
           icon: <Icons.globe className="size-3" />,
         },
       ],
