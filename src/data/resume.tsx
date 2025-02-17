@@ -265,6 +265,7 @@ export const DATA = {
           type: 'Source',
           href: 'https://github.com/itsbhavsagar/VectorShift_technical_assessment',
           icon: <Icons.github className="size-3" />,
+         
         },
       ],
       image: '/FastAPI.gif',
@@ -297,6 +298,13 @@ export const DATA = {
           href: 'https://ecommerce-website-lilac-ten.vercel.app/',
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: 'Source',
+          href: ' https://github.com/itsbhavsagar/ecommerce-website',
+          icon: <Icons.github className="size-3" />,
+         
+        },
+   
       ],
       image: '',
       video:'https://itsbhavsagar.github.io/video-hosting/Ecomm-MERN.mp4',
