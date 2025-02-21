@@ -21,12 +21,15 @@ export const DATA = {
     'Node.js',
     'Express',
     'MongoDB',
+    'Firebase',
     'Redux',
     'Git',
     'Docker',
     'Jest',
+    'Snapshot Testing',
     'Microservices',
     'REST APIs',
+    'Stripe API',
     'GraphQL',
     'Tailwind CSS',
     'Figma',
@@ -265,7 +268,6 @@ export const DATA = {
           type: 'Source',
           href: 'https://github.com/itsbhavsagar/VectorShift_technical_assessment',
           icon: <Icons.github className="size-3" />,
-         
         },
       ],
       image: '/FastAPI.gif',
@@ -302,12 +304,10 @@ export const DATA = {
           type: 'Source',
           href: ' https://github.com/itsbhavsagar/ecommerce-website',
           icon: <Icons.github className="size-3" />,
-         
         },
-   
       ],
       image: '',
-      video:'https://itsbhavsagar.github.io/video-hosting/Ecomm-MERN.mp4',
+      video: 'https://itsbhavsagar.github.io/video-hosting/Ecomm-MERN.mp4',
     },
   ],
 } as const;
