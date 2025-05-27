@@ -89,6 +89,18 @@ export const DATA = {
   },
 
   work: [
+     {
+      company: 'Prospello Technologies',
+      href: 'https://www.prospello.tech/',
+      badges: [],
+      location: 'Noida, Uttar Pradesh',
+      title: 'React Developer',
+      logoUrl: '/prospello.png',
+      start: 'March 2025',
+      end: 'Present',
+      description:
+        'Developed and maintained scalable web applications using React and TypeScript for clients across various industries. Built reusable UI components and optimized front-end performance. Integrated RESTful APIs and GraphQL for efficient data fetching and state management. Utilized Docker and Kubernetes for containerized deployments. Designed and implemented robust testing strategies using Jest and React Testing Library.',
+    },
     {
       company: 'UpWork',
       href: 'https://www.upwork.com/',
@@ -106,7 +118,7 @@ export const DATA = {
       href: 'https://www.geeksforgeeks.org/',
       badges: [],
       location: 'Noida, Uttar Pradesh',
-      title: 'FullStack-MERN Intern',
+      title: 'Fullstack-MERN',
       logoUrl: '/gfg.svg',
       start: 'April 2024',
       end: 'Aug 2024',
