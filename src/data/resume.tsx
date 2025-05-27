@@ -138,7 +138,7 @@ export const DATA = {
       href: "https://www.geeksforgeeks.org/",
       badges: [],
       location: "Noida, Uttar Pradesh",
-      title: "Fullstack MERN Intern",
+      title: "Fullstack MERN Developer",
       logoUrl: "/gfg.svg",
       start: "April 2024",
       end: "Aug 2024",
