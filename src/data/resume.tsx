@@ -8,36 +8,54 @@ export const DATA = {
   location: "New Delhi, India",
   locationLink: "https://www.google.com/maps/place/NewDelhi",
 
-  description:
-  "🔥 React Frontend Developer | Building Engaging UIs with Next.js, TypeScript, and Motion Magic",
-summary:
-  "I'm a **React Frontend Developer** currently working in **Bangalore**, building modern and scalable **LMS platforms** at Prospello Technologies. With over 2.8+ years of experience, I specialize in crafting **visually stunning**, **accessible**, and **high-performance** user interfaces using tools like **Next.js**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, **GSAP**, **Radix UI**, and **shadcn/ui**. I turn complex designs into smooth, interactive experiences and love integrating real-world **REST APIs** into dynamic frontends. Outside of work, I’m diving deep into the world of **AI development**, exploring **AI agents**, **OpenAI**, and **TensorFlow.js**, and sharing practical, beginner-friendly tutorials to help others make the leap into AI. Let’s build something that *feels alive*.",
+  description: "🔥 React Frontend Developer | Architecting Interfaces That Move & Speak",
+
+  summary: "By day, I craft **rich, interactive UIs** as a **React Developer**, building next-gen learning experiences at a fast-moving product company. **My toolkit?** A precise blend of **Next.js**, **TypeScript**, and just enough animation magic to make things *feel right*. But that’s just the surface. Behind the scenes, I’m quietly exploring the crossroads of **design, motion, and intelligence**—experimenting with **AI agents**, deep UI systems, and building tools that don't just work, but *respond*. I occasionally share what I learn—when it’s ready. Until then, let’s just say I’m building something worth *clicking twice*.",
 
   avatarUrl: "/me.png",
   skills: [
+    // 🧠 Core Frontend
     "JavaScript",
     "TypeScript",
     "React",
     "Next.js",
+    "Redux",
+    "Tailwind CSS",
+    "Figma",
+  
+    // 🛠️ Motion & UI Systems
+    "Framer Motion",
+    "GSAP",
+    "Radix UI",
+    "shadcn/ui",
+
+    // 🔧 Backend & Databases
     "Node.js",
     "Express",
     "MongoDB",
     "Firebase",
-    "Redux",
+  
+    // 🌐 APIs & Integrations
+    "REST APIs",
+    "GraphQL",
+    "Stripe API",
+    'Razorpay API',
+  
+    // 🚢 DevOps & Tooling
     "Git",
     "Docker",
+    "Microservices",
+  
+    // 🧪 Testing
     "Jest",
     "Snapshot Testing",
-    "Microservices",
-    "REST APIs",
-    "Stripe API",
-    "GraphQL",
-    "Tailwind CSS",
-    "Figma",
+  
+    // 🤖 AI & Emerging Tech
     "AI Agents",
     "LangChain",
     "OpenAI API",
   ],
+  
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
@@ -89,6 +107,7 @@ summary:
     },
   },
 
+  
   work: [
     {
       company: "Prospello Technologies",
@@ -100,58 +119,58 @@ summary:
       start: "March 2025",
       end: "Present",
       description:
-        "Working as a React Developer at Prospello Technologies, Bangalore. Leading the frontend development of modern LMS platforms and other scalable web applications. Focused on building reusable and accessible UI components using React, Tailwind CSS, and Framer Motion. Implementing pixel-perfect responsive designs from Figma, integrating REST APIs, and ensuring performance optimization. Contributing to component architecture, smooth animations, and seamless user experience across devices.",
+        "Leading frontend development at a fast-paced product company, building dynamic LMS platforms that scale. I craft pixel-perfect, animated UIs using React, Next.js, Tailwind CSS, and Framer Motion. From transforming complex Figma designs into performant layouts to building reusable component libraries and integrating REST APIs—everything is designed to be smooth, accessible, and real-time ready.",
     },
-
     {
       company: "UpWork",
       href: "https://www.upwork.com/",
       badges: [],
-      location: "Noida, Uttar Pradesh",
-      title: "MERN Developer | Freelance",
+      location: "Remote",
+      title: "Freelance MERN Developer",
       logoUrl: "/upwork.svg",
       start: "Aug 2024",
       end: "Present",
       description:
-        "Developed and maintained scalable web applications using React and TypeScript for clients across various industries. Built reusable UI components and optimized front-end performance. Integrated RESTful APIs and GraphQL for efficient data fetching and state management. Utilized Docker and Kubernetes for containerized deployments. Designed and implemented robust testing strategies using Jest and React Testing Library.",
+        "Collaborated with international clients to deliver end-to-end MERN stack solutions. Worked on scalable dashboards, CMS systems, and B2B tools. Used TypeScript, GraphQL, and Docker to build and ship robust, containerized web apps. Focused on client satisfaction through rapid iteration and clean, modular code.",
     },
     {
       company: "GeeksForGeeks",
       href: "https://www.geeksforgeeks.org/",
       badges: [],
       location: "Noida, Uttar Pradesh",
-      title: "Fullstack-MERN",
+      title: "Fullstack MERN Intern",
       logoUrl: "/gfg.svg",
       start: "April 2024",
       end: "Aug 2024",
       description:
-        "Built full-stack web applications using MongoDB, Express.js, React, and Node.js. Developed interactive and responsive UI components with React and Redux Toolkit. Implemented authentication and authorization using JWT and OAuth. Optimized database queries and back-end performance for scalability. Collaborated with senior developers to debug, test, and deploy production-ready applications.",
+        "Built full-stack features using MongoDB, Express.js, React, and Node.js. Integrated JWT/OAuth authentication and state management with Redux Toolkit. Gained hands-on experience in debugging, RESTful API integration, and backend performance tuning.",
     },
     {
       company: "Allen Digital",
       href: "https://digital.allen.ac.in/",
       badges: [],
       location: "Kota, Rajasthan",
-      title: "Software Engineer | Consultant",
+      title: "Software Engineer (Consultant)",
       logoUrl: "/allen.svg",
       start: "July 2021",
       end: "March 2022",
       description:
-        "Designed and implemented front-end features for an ed-tech platform serving thousands of students. Built reusable UI components using React and integrated them with back-end APIs. Improved application performance by optimizing rendering and implementing lazy loading. Worked closely with designers to translate UI/UX wireframes into high-quality code.",
+        "Contributed to a national-scale ed-tech platform used by thousands of students daily. Worked on React-based UI modules, API integration, and performance optimizations like lazy loading and code splitting. Collaborated closely with the UI/UX team to bring interactive classroom experiences to life.",
     },
     {
       company: "Speedwell IT Solutions",
       href: "https://www.speedwellitsolutions.com/index.php",
       badges: [],
       location: "Noida, Uttar Pradesh",
-      title: "Frontend Web Developer",
+      title: "Frontend Developer",
       logoUrl: "/speedwell.png",
       start: "Feb 2021",
       end: "June 2021",
       description:
-        "Developed and maintained responsive web applications using React, Redux, and TypeScript. Architected and built the MVP of an internal admin and A/B testing dashboard. Integrated APIs for real-time data updates and analytics. Optimized front-end performance and ensured cross-browser compatibility.",
+        "Designed and developed the MVP of an internal admin dashboard using React and Redux. Worked on data visualization, A/B testing UI, and real-time API integrations. Focused on clean architecture and rapid delivery in a startup environment.",
     },
   ],
+  
   education: [
     {
       school: "Coursera",

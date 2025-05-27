@@ -1,4 +1,3 @@
-// import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from '@/components/magicui/blur-fade';
 import BlurFadeText from '@/components/magicui/blur-fade-text';
 import { ProjectCard } from '@/components/project-card';
@@ -65,6 +64,7 @@ export default function Page() {
                 altText={work.company}
                 title={work.company}
                 subtitle={work.title}
+                location={work.location}
                 href={work.href}
                 badges={work.badges}
                 period={`${work.start} - ${work.end ?? 'Present'}`}
