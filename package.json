@@ -1,5 +1,15 @@
 {
-  "name": "porfolio",
+  "name": "bhavsagar_portfolio",
+  "description": "A portfolio website built with Next.js, showcasing projects and skills.",
+  "author": "Bhav Sagar", 
+  "license": "MIT",
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "react",
+    "web development",
+    "showcase"
+  ],
   "version": "0.1.0",
   "private": true,
   "scripts": {
