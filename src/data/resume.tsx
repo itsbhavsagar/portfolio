@@ -110,7 +110,7 @@ export const DATA = {
   
   work: [
     {
-      company: "Prospello Technologies",
+      company: "INTELNEST INNOVATIONS PRIVATE LIMITED [Prospello technologies]",
       href: "https://www.prospello.tech/",
       badges: [],
       location: "Bangalore, Karnataka",
