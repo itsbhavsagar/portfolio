@@ -117,11 +117,11 @@ export const DATA = {
 
   work: [
     {
-      company: 'Intelnest Innovations Pvt Ltd [Prospello Technologies]',
+      company: 'Prospello Technologies',
       href: 'https://www.prospello.tech/',
       badges: [],
       location: 'Bangalore, Karnataka',
-      title: 'Senior React Developer',
+      title: 'Frontend Developer',
       logoUrl: '/prospello.png',
       start: 'March 2025',
       end: 'Present',
