@@ -14,50 +14,14 @@ export const DATA = {
 
   avatarUrl: '/me.png',
   skills: [
-    // Core Frontend
-    'JavaScript (ES6+)',
-    'TypeScript',
-    'React',
-    'Next.js',
-    "Expo",
-    'React Native',
-    'Redux Toolkit',
-    'RTK Query',
-    'TanStack Query',
-    'HTML5',
-    'CSS3',
-    'Tailwind CSS',
-
-    // UI / UX
-    'Responsive Design',
-    'Accessibility (WCAG)',
-    'Design Systems',
-    'Component Architecture',
-    'Figma',
-
-    // Motion & Interaction
-    'Framer Motion',
-    "Material UI",
-    'GSAP',
-    'Radix UI',
-    'shadcn/ui',
-
-    // Backend & APIs (supporting)
-    'Node.js',
-    'Express',
-    'MongoDB',
-    'REST APIs',
-    'GraphQL',
-
-    // Payments & Realtime
-    'Razorpay',
-    'Stripe',
-    'LiveKit',
-    'WebSockets',
-
-    // Tooling
-    'Git',
-    'Docker',
+    'React', 'Next.js', 'React Native', 'Expo', 'TypeScript', 'JavaScript (ES6+)',
+    'Redux Toolkit', 'RTK Query', 'TanStack Query', 'Tailwind CSS', 'HTML5', 'CSS3',
+    'Responsive Design', 'Mobile-First Design', 'Accessibility (WCAG)', 'Design Systems',
+    'Component Architecture', 'Figma', 'Framer Motion', 'GSAP', 'Radix UI', 'shadcn/ui', 'Material UI',
+    'Node.js', 'Express', 'MongoDB', 'Mongoose', 'REST APIs', 'GraphQL',
+    'Razorpay', 'Stripe', 'LiveKit SDK', 'Zoom Video SDK', 'WebSockets', 'Push Notifications',
+    'PWA', 'Performance Optimization (LCP, CLS, INP)', 'Code Splitting', 'Lazy Loading',
+    'Memoization', 'API Caching', 'Docker', 'Git', 'Vercel', 'AWS'
   ]
   ,
 
@@ -228,49 +192,20 @@ export const DATA = {
       dates: '2025',
       active: true,
       description:
-        'Independently built a full-scale Learning Management System as a side project, taking full ownership from product requirements to frontend architecture, UI/UX design, backend APIs, authentication, and data modeling using React and Node.js.'
-      ,
+        'Full ownership side project: complete frontend architecture, UI/UX design, backend APIs, authentication, role-based access control, and data modeling using React and Node.js.',
       technologies: [
-        // Frontend
-        'React',
-        'TypeScript',
-        'Vite',
-        'Redux Toolkit',
-        'React Router',
-        'Tailwind CSS',
-        'Radix UI',
-        'Framer Motion',
-        'GSAP',
-
-        // Backend
-        'Node.js',
-        'Express',
-        'MongoDB',
-        'Mongoose',
-        'JWT Authentication',
-        'bcrypt',
-
-        // Tooling
-        'REST APIs',
-        'Axios',
-        'Role-Based Access Control',
+        'React', 'TypeScript', 'Vite', 'Redux Toolkit', 'React Router', 'Tailwind CSS',
+        'Radix UI', 'Framer Motion', 'GSAP', 'Node.js', 'Express', 'MongoDB', 'Mongoose',
+        'JWT Authentication', 'bcrypt', 'REST APIs', 'Axios',
       ],
       links: [
-        {
-          type: 'Website',
-          href: 'https://lms-frontend-7m6f.onrender.com/',
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: 'Source',
-          href: 'https://github.com/itsbhavsagar/lms',
-          icon: <Icons.github className="size-3" />,
-        },
+        { type: 'Website', href: 'https://lms-frontend-7m6f.onrender.com/', icon: <Icons.globe className="size-3" /> },
+        { type: 'Source', href: 'https://github.com/itsbhavsagar/lms', icon: <Icons.github className="size-3" /> },
       ],
       image: '',
       video: 'https://itsbhavsagar.github.io/video-hosting/LeranHub-LMS.mp4',
-    }
-    ,
+    },
+
     {
       title: 'Digital Marketing Webiste',
       href: 'https://cognitive-creations.vercel.app/',
