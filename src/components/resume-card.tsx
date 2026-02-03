@@ -103,14 +103,14 @@ export const ResumeCard = ({
               className="mt-2 text-xs sm:text-sm"
             >
               {location && (
-            <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
-              {location}
-            </div>
-          )}
-              {description}  
+                <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+                  {location}
+                </div>
+              )}
+              {description}
             </motion.div>
           )}
-          
+
         </div>
       </Card>
     </Link>

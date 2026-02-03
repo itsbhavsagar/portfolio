@@ -8,12 +8,7 @@ export const DATA = {
   location: 'New Delhi, India',
   locationLink: 'https://www.google.com/maps/place/NewDelhi',
 
-  description: '🔥 Frontend / Product Engineer | React, React Native, TypeScript',
-
-  // summary:
-  //   "By day, I craft rich, interactive UIs as a React & React Native Developer, building next-gen learning experiences at a fast-moving product company. My toolkit? A precise blend of Next.js, React Native, TypeScript, and just enough animation magic to make things feel right—whether it’s on the web or mobile. But that’s just the surface. Behind the scenes, I’m quietly exploring the crossroads of design, motion, and intelligence—experimenting with AI agents, deep UI systems, and building tools that don't just work, but respond. I occasionally share what I learn—when it’s ready. Until then, let’s just say I’m building something worth clicking twice (or tapping, if you're on mobile).",
-
-
+  description: '🔥 Frontend / Product Engineer | React • React Native • TypeScript • Next.js • PWA',
   summary:
     "I’m a Frontend / Product Engineer with 3+ years of experience building production-grade web and mobile applications for startups. I specialize in React, Next.js, React Native, and TypeScript, and have owned frontend and mobile development end-to-end — from architecture and UI/UX to performance optimization and production delivery.\n\nAt my current role, I’m part of the founding engineering team, where I’ve built multi-role SaaS platforms, real-time video systems, subscription flows, admin dashboards, and mobile apps used by thousands of daily users. I often work without detailed specs or designers, translating PRDs directly into scalable, user-friendly interfaces.\n\nI care deeply about clean architecture, performance, accessibility, and building products that real users rely on.",
 
@@ -72,7 +67,7 @@ export const DATA = {
   ],
   contact: {
     email: 'bhavsagar92@gmail.com',
-    tel: '+123456789',
+    tel: '+91 9899006810',
     social: {
       GitHub: {
         name: 'GitHub',
@@ -130,18 +125,18 @@ export const DATA = {
       description:
         'Core member of the founding engineering team, owning frontend and mobile development end-to-end for multiple production-grade SaaS and LMS platforms. Built large-scale, multi-role systems (students, teachers, parents, admins, clients) including real-time virtual classrooms, subscriptions, scheduling, dashboards, and role-based access control. Implemented live video workflows using LiveKit and Zoom Video SDK, and developed cross-platform mobile apps with React Native (Expo → Native CLI) including push notifications and native integrations. Led frontend architecture, performance optimization, and PWA conversion for offline-first and mobile-first experiences. Independently handled UI/UX design and design systems in the absence of a designer, ensuring accessibility and consistency. Collaborated closely with backend teams on Node.js and MongoDB APIs, authentication, and system design. Platforms are actively used by thousands of students daily across institutes in India.'
     },
-    // {
-    //   company: 'UpWork',
-    //   href: 'https://www.upwork.com/',
-    //   badges: [],
-    //   location: 'Remote',
-    //   title: 'Freelance MERN Developer',
-    //   logoUrl: '/upwork.svg',
-    //   start: 'Aug 2024',
-    //   end: 'Present',
-    //   description:
-    //     'Collaborated with international clients to deliver end-to-end MERN stack solutions. Worked on scalable dashboards, CMS systems, and B2B tools. Used TypeScript, GraphQL, and Docker to build and ship robust, containerized web apps. Focused on client satisfaction through rapid iteration and clean, modular code.',
-    // },
+    {
+      company: 'UpWork',
+      href: 'https://www.upwork.com/',
+      badges: [],
+      location: 'Remote',
+      title: 'Freelance MERN Developer',
+      logoUrl: '/upwork.svg',
+      start: 'Aug 2024',
+      end: 'Feb 2025',
+      description:
+        'Collaborated with international clients to deliver end-to-end MERN stack solutions. Worked on scalable dashboards, CMS systems, and B2B tools. Used TypeScript, GraphQL, and Docker to build and ship robust, containerized web apps. Focused on client satisfaction through rapid iteration and clean, modular code.',
+    },
     {
       company: 'GeeksForGeeks',
       href: 'https://www.geeksforgeeks.org/',
@@ -182,12 +177,11 @@ export const DATA = {
 
   education: [
     {
-      school: 'Coursera',
-      href: 'https://www.coursera.org/',
-      degree: 'AI and Machine Learning Course',
-      logoUrl:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz7q6y7rIYcXU2l7jqz93eSqTyMQtGkHC1UA&s',
-      start: '2024',
+      school: 'Udemy',
+      href: 'https://www.udemy.com/course/the-complete-agentic-ai-engineering-course/',
+      degree: 'AI Engineer Agentic Track: The Complete Agent & MCP Course',
+      logoUrl: '/udemy.svg',
+      start: '2026',
       end: 'Present',
     },
     {
