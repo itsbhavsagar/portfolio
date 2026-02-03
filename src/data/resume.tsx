@@ -8,61 +8,63 @@ export const DATA = {
   location: 'New Delhi, India',
   locationLink: 'https://www.google.com/maps/place/NewDelhi',
 
-  description: '🔥 React Developer | Architecting Interfaces That Move & Speak',
+  description: '🔥 Frontend / Product Engineer | React, React Native, TypeScript',
+
+  // summary:
+  //   "By day, I craft rich, interactive UIs as a React & React Native Developer, building next-gen learning experiences at a fast-moving product company. My toolkit? A precise blend of Next.js, React Native, TypeScript, and just enough animation magic to make things feel right—whether it’s on the web or mobile. But that’s just the surface. Behind the scenes, I’m quietly exploring the crossroads of design, motion, and intelligence—experimenting with AI agents, deep UI systems, and building tools that don't just work, but respond. I occasionally share what I learn—when it’s ready. Until then, let’s just say I’m building something worth clicking twice (or tapping, if you're on mobile).",
+
 
   summary:
-    "By day, I craft rich, interactive UIs as a React & React Native Developer, building next-gen learning experiences at a fast-moving product company. My toolkit? A precise blend of Next.js, React Native, TypeScript, and just enough animation magic to make things feel right—whether it’s on the web or mobile. But that’s just the surface. Behind the scenes, I’m quietly exploring the crossroads of design, motion, and intelligence—experimenting with AI agents, deep UI systems, and building tools that don't just work, but respond. I occasionally share what I learn—when it’s ready. Until then, let’s just say I’m building something worth clicking twice (or tapping, if you're on mobile).",
+    "I’m a Frontend / Product Engineer with 3+ years of experience building production-grade web and mobile applications for startups. I specialize in React, Next.js, React Native, and TypeScript, and have owned frontend and mobile development end-to-end — from architecture and UI/UX to performance optimization and production delivery.\n\nAt my current role, I’m part of the founding engineering team, where I’ve built multi-role SaaS platforms, real-time video systems, subscription flows, admin dashboards, and mobile apps used by thousands of daily users. I often work without detailed specs or designers, translating PRDs directly into scalable, user-friendly interfaces.\n\nI care deeply about clean architecture, performance, accessibility, and building products that real users rely on.",
 
   avatarUrl: '/me.png',
   skills: [
-    // 🧠 Core Frontend
-    'JavaScript',
+    // Core Frontend
+    'JavaScript (ES6+)',
     'TypeScript',
     'React',
-    'React Native',
     'Next.js',
-    'Redux',
+    "Expo",
+    'React Native',
+    'Redux Toolkit',
     'RTK Query',
+    'TanStack Query',
     'HTML5',
     'CSS3',
     'Tailwind CSS',
-    'Figma',
-    'Formik',
-    'Yup',
 
-    // 🛠️ Motion & UI Systems
+    // UI / UX
+    'Responsive Design',
+    'Accessibility (WCAG)',
+    'Design Systems',
+    'Component Architecture',
+    'Figma',
+
+    // Motion & Interaction
     'Framer Motion',
+    "Material UI",
     'GSAP',
     'Radix UI',
     'shadcn/ui',
 
-    // 🔧 Backend & Databases
+    // Backend & APIs (supporting)
     'Node.js',
     'Express',
     'MongoDB',
-    'Firebase',
-
-    // 🌐 APIs & Integrations
     'REST APIs',
     'GraphQL',
-    'Stripe API',
-    'Razorpay API',
 
-    // 🚢 DevOps & Tooling
+    // Payments & Realtime
+    'Razorpay',
+    'Stripe',
+    'LiveKit',
+    'WebSockets',
+
+    // Tooling
     'Git',
     'Docker',
-    'Microservices',
-
-    // 🧑‍🎨 UI/UX Quality
-    'Responsive Design',
-    'Pixel Perfect UI',
-    'Accessibility (a11y)',
-
-    // 🤖 AI & Emerging Tech
-    'AI Agents',
-    'LangChain',
-    'OpenAI API',
-  ],
+  ]
+  ,
 
   navbar: [
     { href: '/', icon: HomeIcon, label: 'Home' },
@@ -126,7 +128,7 @@ export const DATA = {
       start: 'March 2025',
       end: 'Present',
       description:
-        'Driving Frontend development as part of the founder’s team, building responsive, scalable web and mobile applications using React.js, React Native, Node.js, and AWS, Collaborating with cross-functional team members to design and implement responsive, accessible UIs with tools like Tailwind CSS, Formik, Yup, and animation libraries such as Framer Motion and GSAP. Contributing to backend development with Node.js (Express, Fastify), MongoDB, and Mongoose — designing REST APIs, server-side logic, and integrating cloud services via AWS. Involved in building applications from scratch, ensuring performance, scalability, and clean architectural decisions. Working in an agile environment maintaining code quality through code reviews and version control with Git and GitHub. Independently led UI/UX design efforts in the absence of a dedicated designer — from concept to implementation — and helped shape the product experience. Actively involved in system design discussions, project ownership, and team decision-making as part of the founder engineering team.',
+        'Core member of the founding engineering team, owning frontend and mobile development end-to-end for multiple production-grade SaaS and LMS platforms. Built large-scale, multi-role systems (students, teachers, parents, admins, clients) including real-time virtual classrooms, subscriptions, scheduling, dashboards, and role-based access control. Implemented live video workflows using LiveKit and Zoom Video SDK, and developed cross-platform mobile apps with React Native (Expo → Native CLI) including push notifications and native integrations. Led frontend architecture, performance optimization, and PWA conversion for offline-first and mobile-first experiences. Independently handled UI/UX design and design systems in the absence of a designer, ensuring accessibility and consistency. Collaborated closely with backend teams on Node.js and MongoDB APIs, authentication, and system design. Platforms are actively used by thousands of students daily across institutes in India.'
     },
     // {
     //   company: 'UpWork',
@@ -225,6 +227,56 @@ export const DATA = {
   ],
 
   projects: [
+
+    {
+      title: 'Learning Management System (LMS)',
+      href: 'https://lms-frontend-7m6f.onrender.com/',
+      dates: '2025',
+      active: true,
+      description:
+        'Independently built a full-scale Learning Management System as a side project, taking full ownership from product requirements to frontend architecture, UI/UX design, backend APIs, authentication, and data modeling using React and Node.js.'
+      ,
+      technologies: [
+        // Frontend
+        'React',
+        'TypeScript',
+        'Vite',
+        'Redux Toolkit',
+        'React Router',
+        'Tailwind CSS',
+        'Radix UI',
+        'Framer Motion',
+        'GSAP',
+
+        // Backend
+        'Node.js',
+        'Express',
+        'MongoDB',
+        'Mongoose',
+        'JWT Authentication',
+        'bcrypt',
+
+        // Tooling
+        'REST APIs',
+        'Axios',
+        'Role-Based Access Control',
+      ],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://lms-frontend-7m6f.onrender.com/',
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: 'Source',
+          href: 'https://github.com/itsbhavsagar/lms',
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: '',
+      video: 'https://itsbhavsagar.github.io/video-hosting/LeranHub-LMS.mp4',
+    }
+    ,
     {
       title: 'Digital Marketing Webiste',
       href: 'https://cognitive-creations.vercel.app/',
