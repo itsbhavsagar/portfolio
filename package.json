@@ -1,7 +1,7 @@
 {
   "name": "bhavsagar_portfolio",
   "description": "A portfolio website built with Next.js, showcasing projects and skills.",
-  "author": "Bhav Sagar", 
+  "author": "Bhav Sagar",
   "license": "MIT",
   "keywords": [
     "portfolio",
@@ -31,7 +31,7 @@
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.395.0",
     "next": "14.2.4",
-    "next-mdx-remote": "^5.0.0",
+    "next-mdx-remote": "^6.0.0",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
