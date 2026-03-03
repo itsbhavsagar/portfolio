@@ -249,13 +249,13 @@ export const DATA = {
         "REST APIs",
         "Role-Based Access Control",
       ],
-      // links: [
-      //   {
-      //     type: "Website",
-      //     href: "#",
-      //     icon: <Icons.globe className="size-3" />,
-      //   },
-      // ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "#",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+      ],
       image: "",
       video: "https://itsbhavsagar.github.io/video-hosting/fitness_app.mp4",
     },
@@ -288,13 +288,13 @@ export const DATA = {
         "Role-Based Access Control",
         "REST APIs",
       ],
-      // links: [
-      //   {
-      //     type: "Website",
-      //     href: "",
-      //     icon: <Icons.globe className="size-3" />,
-      //   },
-      // ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+      ],
       image: "",
       video: "https://itsbhavsagar.github.io/video-hosting/ADMIN_LMS.mp4",
     },
