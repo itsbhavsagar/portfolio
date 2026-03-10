@@ -9,12 +9,21 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/NewDelhi",
 
   description:
-    "🔥 Frontend / Product Engineer | React • React Native • TypeScript • Next.js • PWA",
+    "Frontend Engineer · I build React/Next.js/React Native apps from scratch and integrate AI into them · LLM APIs · RAG · TypeScript",
   summary:
-    "I’m a Frontend / Product Engineer with 3+ years of experience building production-grade web and mobile applications for startups. I specialize in React, Next.js, React Native, and TypeScript, and have owned frontend and mobile development end-to-end — from architecture and UI/UX to performance optimization and production delivery.\n\n At my current role, I’m part of the founding engineering team, where I’ve built multi-role SaaS platforms, real-time video systems, subscription flows, admin dashboards, and mobile apps used by thousands of daily users. I often work without detailed specs or designers, translating PRDs directly into scalable, user-friendly interfaces.\n\nI care deeply about clean architecture, performance, accessibility, and building products that real users rely on.",
+    "I build React, Next.js, and React Native applications from scratch — and I integrate AI into them.\nI'm the engineer product teams call when they need to add AI to something that already exists, or build something new that has AI baked in from day one.\nCurrently the sole frontend engineer at a startup — no designer, just a PRD and me. I ship complete products: web apps, mobile apps, admin dashboards. I've also integrated LLM APIs into live production apps — RAG-based doubt resolution, AI quiz generation, lesson summarisation, Whisper voice input — real users depending on them daily.\nI use Claude and GitHub Copilot as daily drivers. Not occasionally. Every single day.\n\nBuild from scratch. Integrate AI. Both.",
 
   avatarUrl: "/me.png",
   skills: [
+    "OpenAI API",
+    "Claude API",
+    "Groq SDK",
+    "Cohere Embeddings",
+    "RAG Pipelines",
+    "Whisper Voice AI",
+    "Vercel AI SDK",
+    "Prompt Engineering",
+    "LLM Streaming",
     "React",
     "Next.js",
     "React Native",
@@ -43,12 +52,10 @@ export const DATA = {
     "MongoDB",
     "Mongoose",
     "REST APIs",
-    "GraphQL",
     "Razorpay",
     "Stripe",
     "LiveKit SDK",
     "Zoom Video SDK",
-    "WebSockets",
     "Push Notifications",
     "PWA",
     "Performance Optimization (LCP, CLS, INP)",
@@ -123,7 +130,7 @@ export const DATA = {
       start: "March 2025",
       end: "Present",
       description:
-        "Architected and built end-to-end frontend for two production SaaS platforms — a multi-role Health & Fitness LMS and an Admin CRM — serving a wellness brand with 5L+ Instagram followers and real paying customers.\n\n Designed and implemented 6 distinct user roles (Member, Trainer, Lifestyle Buddy, Medical Professional, Department Head, Admin) with role-based access control across both web and React Native mobile app. Owned complete UI/UX design from scratch with no Figma designer — independently created the entire design system, component library, and user flows for both platforms. Built React Native mobile app (Expo → ejected to Native CLI) featuring health trackers, period cycle tracking, care team management, session scheduling, and real-time appointment management. Integrated Razorpay payment gateway handling live transactions — membership plans ranging ₹9,999–₹54,999 with full payment history, order tracking, and subscription management. Built real-time video workflows using LiveKit SDK and Zoom Video SDK for live group classes and 1:1 trainer sessions with scheduling and meeting orchestration. Converted platforms to Progressive Web Apps (PWA) enabling offline access and mobile-first experience for users on low-bandwidth connections. Implemented performance optimizations — memoization, lazy loading, code splitting, TanStack Query caching — across a platform serving concurrent multi-role users",
+        "Sole frontend engineer — no designer, just a PRD and me.\n\nIntegrated LLM APIs into live production apps: RAG-based doubt resolution (Cohere embeddings + Groq), AI quiz generation by chapter, lesson summarisation from uploaded PDFs, and Whisper voice input — shipped into apps with real users depending on them daily.\n\nBuilt across web, mobile, and admin from scratch: React/Next.js platform with multi-role RBAC, React Native app (Expo → Native CLI) with device integrations, and a full admin operations suite — all live, all in production.\n\nStack: React 18, Next.js, TypeScript, React Native, TanStack Query, Redux Toolkit, Tailwind CSS, MUI, OpenAI API, Claude API, Groq SDK, Cohere, Whisper, LiveKit SDK, Zoom SDK, Razorpay, PWA, AWS",
     },
     {
       company: "UpWork",
